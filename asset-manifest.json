@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/https//vizion.github.io/home-page/static/css/main.e6c13ad2.css",
+    "main.js": "/https//vizion.github.io/home-page/static/js/main.e817673d.js",
+    "static/js/453.07d775da.chunk.js": "/https//vizion.github.io/home-page/static/js/453.07d775da.chunk.js",
+    "index.html": "/https//vizion.github.io/home-page/index.html",
+    "main.e6c13ad2.css.map": "/https//vizion.github.io/home-page/static/css/main.e6c13ad2.css.map",
+    "main.e817673d.js.map": "/https//vizion.github.io/home-page/static/js/main.e817673d.js.map",
+    "453.07d775da.chunk.js.map": "/https//vizion.github.io/home-page/static/js/453.07d775da.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.e817673d.js"
+  ]
+}
