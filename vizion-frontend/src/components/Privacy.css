@@ -1,0 +1,84 @@
+.privacy-strip {
+  background: var(--surface);
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  z-index: 1;
+  position: relative;
+}
+
+.privacy-inner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 6rem 3rem;
+}
+
+.privacy-list {
+  list-style: none;
+  margin-top: 2rem;
+}
+.privacy-list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  padding: 0.75rem 0;
+  border-bottom: 1px solid var(--border);
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+.privacy-list li::before {
+  content: '✓';
+  color: var(--accent);
+  font-weight: 700;
+  flex-shrink: 0;
+  margin-top: 0.1rem;
+}
+
+.privacy-visual {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 1rem;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.audit-title {
+  font-size: 0.72rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 0.5rem;
+}
+
+.pv-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.82rem;
+}
+.pv-label {
+  color: var(--muted);
+}
+.pv-badge {
+  padding: 0.2rem 0.7rem;
+  border-radius: 2rem;
+  font-size: 0.72rem;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+}
+.pv-badge.local { background: rgba(0, 229, 192, 0.12); color: var(--accent); }
+.pv-badge.none  { background: rgba(224, 68, 68, 0.1);  color: #f87171; }
+.pv-badge.ttl   { background: rgba(61, 126, 255, 0.12); color: #7ba8ff; }
+
+@media (max-width: 700px) {
+  .privacy-inner {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    padding: 4rem 1.5rem;
+  }
+}
