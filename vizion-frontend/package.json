@@ -2,7 +2,7 @@
   "name": "vizion-frontend",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https//vizion.github.io/home-page",
+  "homepage": "https://vizion.github.io/home-page",
   "dependencies": {
     "@react-three/drei": "^10.7.6",
     "@react-three/fiber": "^9.4.0",
